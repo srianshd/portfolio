@@ -5,9 +5,10 @@ permalink: /about/
 comments: true
 ---
 
-## As a conversation Starter
+## To start off,
 
-Here are some places I have been to
+Here are some places I have been to.
+
 hawaii,
 maui,
 florida,
