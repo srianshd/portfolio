@@ -5,10 +5,9 @@ permalink: /about/
 comments: true
 ---
 
-## To start off,
+## As a conversation Starter
 
-Here are some places I have been to.
-
+Here are some places I have been to
 hawaii,
 maui,
 florida,
@@ -17,8 +16,8 @@ ohio,
 india,
 spain,
 conneticut,
-national parks,
 nebraska.
+
 
 Here is the schools/life I had while growing up
 
