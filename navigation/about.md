@@ -19,7 +19,7 @@ conneticut,
 nebraska.
 
 
-Here is the schools/life I had while growing up
+schools ive been to
 
 - 🏫 Lived in 4S Ranch, San Diego, for preschool
 - 🏫 Lived in the same neighborhood but a diffrent house and went to a local elementry school (Monterey Ridge)
