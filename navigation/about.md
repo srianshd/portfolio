@@ -9,6 +9,7 @@ comments: true
 
 Here are some places I have been to
 ![alt text](image.png)
+![alt text](image-3.png)
 hawaii,
 maui,
 florida,
