@@ -8,6 +8,7 @@ comments: true
 ## As a conversation Starter
 
 Here are some places I have been to
+![alt text](image.png)
 hawaii,
 maui,
 florida,
