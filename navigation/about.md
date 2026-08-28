@@ -8,8 +8,8 @@ comments: true
 ## As a conversation Starter
 
 Here are some places I have been to
-![alt text](image.png)
-![alt text](image-3.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
 hawaii,
 maui,
 florida,
@@ -36,8 +36,7 @@ Everything for me, as for many others, revolves around family and faith.
 - My family is indian as me and my brother were born in the USA as my parents lived in India and moved to the USA for college.
 - My family is pretty big as I have 4 families of cousins or 7 individal cousins. 
 - My mothers side of the family tree includes 1 of the 4 families of cousins and the other side (dads) includes the other 3
-![alt text](WIN_20260828_11_14_24_Pro.jpg)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
 <comment>
 
