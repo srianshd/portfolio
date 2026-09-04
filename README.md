@@ -98,6 +98,7 @@ cd portfolio
 
 #### Keep Template In Sync (Upstream + Merge)
 
+<<<<<<< HEAD
 Add Open Coding Society as an `upstream` remote once, then periodically merge updates.
 
 ```bash
@@ -112,6 +113,25 @@ git merge upstream/main
 
 # publish merged updates to your repo
 git push origin main
+=======
+Add Open Coding Society as an `upstream` remote once, then periodically merge updates. This help you keep up with dynamic character of a portfolio project.
+
+```bash
+#  In your repository, do this once
+git remote add upstream https://github.com/open-coding-society/portfolio.git
+git remote -v # verify sucess
+
+# first sync for template-created repos (run once if you see unrelated histories)
+git fetch upstream
+# if fetch fails, remove and try again with correct location: get remote remove upstream
+
+# this part is the downstream update, work through best option
+git merge upstream/main
+git merge upstream/main --allow-unrelated-histories
+git merge upstream/main --allow-unrelated-histories -X theirs # destructive resolve
+
+# resolve conflicts, for instance VSCode will have them in Version Control secton with Continue button 
+>>>>>>> upstream/main
 ```
 
 #### Windows WSL and/or Ubuntu or Kali Users
@@ -122,6 +142,7 @@ git push origin main
 
 - Execute the script: `./scripts/activate_macos.sh`
 
+<<<<<<< HEAD
 #### Kasm Cloud Desktop Users
 
 - Execute the script: `./scripts/activate_github.sh`
@@ -137,6 +158,18 @@ The very first time you clone run project you will need to run this Ruby command
 ```bash
 bundle install
 ```
+=======
+#### Setup connection to GitHub
+
+- Execute the script: `./scripts/activate.sh`
+
+#### Prep project to serve on localhost
+
+- Execute the script: `./scripts/venv.sh`
+- Source the virtual environment: `source venv/bin/activate`
+- Build localhost server:  `make`
+- Look for and click on server line output, perhaps `Server address: http://localhost:4500/portfolio/`.  The Port and baseurl may change.
+>>>>>>> upstream/main
 
 ### Jupyter Kernels
 
@@ -146,6 +179,7 @@ To run many of the IPYNB files you will need to install Jupyter kernels for the 
 
 - **Python3** (ipykernel): For Python code cells and most data science workflows.
 - **Java** (IJava or jbang-ijava): For Java code cells and Java notebooks.
+<<<<<<< HEAD
 - **JavaScript** (tslab): For JavaScript code cells and JavaScript notebooks.
 
 #### Installing tslab
@@ -164,6 +198,8 @@ Finally, register it to your Jupyter environment
 ```
 tslab install
 ```
+=======
+>>>>>>> upstream/main
 
 #### Installing IJava or JBang
 
@@ -199,8 +235,11 @@ Available kernels:
   python3        /Users/username/Library/Jupyter/kernels/python3
   java           /Users/username/Library/Jupyter/kernels/java
   jbang-ijava    /Users/username/Library/Jupyter/kernels/jbang-ijava
+<<<<<<< HEAD
   jslab          /Users/username/Library/Jupyter/kernels/jslab
   tslab          /Users/username/Library/Jupyter/kernels/tslab
+=======
+>>>>>>> upstream/main
 ```
 
 Recommended Kernels
